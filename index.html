@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Intention: Privacy Policy</title>
+  <style>
+    :root { --bg:#E7EBE6; --ink:#1D2B2A; --muted:#677872; --line:#B9C4BD; --link:#2F6F6A; color-scheme: light dark; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#172120; --ink:#E3EAE5; --muted:#8FA29B; --line:#34443F; --link:#7FBFB6; } }
+    body { margin:0; background:var(--bg); color:var(--ink);
+      font-family:"Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,sans-serif; line-height:1.65; }
+    main { max-width:680px; margin:0 auto; padding:4rem 1.5rem 5rem; }
+    h1 { font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif; font-weight:400;
+      font-size:clamp(2rem,5vw,2.8rem); line-height:1.15; margin:0 0 .4rem; }
+    h2 { font-size:1.1rem; margin:2.2rem 0 .4rem; }
+    .date { color:var(--muted); margin:0 0 2rem; }
+    a { color:var(--link); }
+    code { font-size:.9em; padding:.05rem .3rem; border:1px solid var(--line); border-radius:4px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Intention privacy policy</h1>
+  <p class="date">Effective October 2, 2026</p>
+
+  <p>Intention is a browser extension that shows a search prompt when you open the YouTube homepage, then opens YouTube's search results for what you type. This policy explains what the extension does with your data. The short version: it collects nothing.</p>
+
+  <h2>Data we collect</h2>
+  <p>None. Intention does not collect, store, transmit, sell, or share any personal information, browsing history, or usage data. It has no analytics, no tracking, no accounts, and no servers of its own.</p>
+
+  <h2>Your search query</h2>
+  <p>When you type a search and press Enter, the extension opens <code>youtube.com/results</code> with your query in the address. That request goes directly from your browser to YouTube, exactly as if you had searched on YouTube yourself. Intention does not save or send the query anywhere else. What YouTube does with it is covered by <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</p>
+
+  <h2>Permissions and why they are needed</h2>
+  <p><strong>declarativeNetRequest</strong> lets the extension redirect the YouTube homepage to the Intention search page. The rule runs inside your browser and does not read page content.</p>
+  <p><strong>Access to youtube.com</strong> lets the extension notice when you return to the YouTube homepage from within YouTube (for example, by clicking the logo) and show the search page again. It only checks which page you are on; it does not read, modify, or collect anything on the page.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If the extension ever starts handling data differently, this page will be updated with a new effective date before that version is released.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be sent to <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a>.</p>
+</main>
+</body>
+</html>
